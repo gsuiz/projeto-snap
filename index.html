@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">  
+  <link rel="stylesheet" href="css/media-queries.css">
+  <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+  <header>
+    <nav class="nav-link">
+      <img src="images/logo.svg" class="logo">
+      <ul class="nav-link__list">
+        <li class="nav-link__item">
+          Features<img src="images/icon-arrow-down.svg">
+          <ul class="item__list">
+            <li><img src="images/icon-todo.svg" class="item__list__img">Todo list</li>
+            <li><img src="images/icon-calendar.svg" class="item__list__img">Calendar</li>
+            <li><img src="images/icon-reminders.svg" class="item__list__img">Reminders</li>
+            <li><img src="images/icon-planning.svg" class="item__list__img">Plannning</li>
+          </ul>
+          </a>
+        </li>
+        <li class="nav-link__item">
+          Company<img src="images/icon-arrow-down.svg">
+            <ul class="item__list">
+              <li class="item__list__img">History</li>
+              <li class="item__list__img">Our Team</li>
+              <li class="item__list__img">Blog</li>
+          </ul>
+          </a>
+        </li>
+        <li class="nav-link__item">
+          Careers
+        </li>
+        <li class="nav-link__item">
+          About
+        </li>
+      </ul>
+    </nav> 
+    <div class="login">
+      <p><a href="">Login</a></p>
+      <i class="fa-solid fa-bars"></i>
+      <button><a href="">Register</a></button>
+    </div>
+  </header>
+  <main>
+    <div class="center">
+      <div class="container">
+        <div class="container__content">
+          <h1>Make <br> remote work</h1>
+          <p>
+            Get your team in sync, no matter your location. Streamline processes,
+            create team rituals, and watch productivity soar.
+          </p>
+          <button><a href="">Learn more</a></button>
+        </div>
+        <div class="container-images">
+          <img src="images/client-databiz.svg" class="content-images__logo">
+          <img src="images/client-audiophile.svg" class="content-images__logo">
+          <img src="images/client-meet.svg" class="content-images__logo">
+          <img src="images/client-maker.svg" class="content-images__logo">
+        </div>
+      </div>
+      <div class="container-img">
+        <picture>
+          <source media="(min-width: 821px)" srcset="images/image-hero-desktop.png" type="image/png" class="container-img__image">
+          <img src="images/image-hero-mobile.png" class="container-img__image">
+        </picture>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
